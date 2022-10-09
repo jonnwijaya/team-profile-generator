@@ -78,7 +78,7 @@ const questionInternFunc = () => {
                 answers.internName,
                 answers.internId,
                 answers.internEmail,
-                answers.internGithub)
+                answers.internSchool)
             employeesArr.push(answers);
             console.log("Intern added")
             return addToTeamPrompt();
