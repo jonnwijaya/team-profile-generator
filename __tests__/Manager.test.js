@@ -16,7 +16,7 @@ describe('Manager class', () => {
         expect(manager.getName()).toEqual(manager.name);
         expect(manager.getID()).toEqual(manager.id);
         expect(manager.getEmail()).toEqual(manager.email);
-        expect(manager.getofficeNumber()).toEqual(manager.officeNumber);
+        expect(manager.getOfficeNumber()).toEqual(manager.officeNumber);
         expect(manager.getRole()).toEqual('Manager');
     });
 })
